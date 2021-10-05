@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#t1 {
+    color: blue;
+}
+.t2{
+    color: blue;
+}
+.t3{
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+}
