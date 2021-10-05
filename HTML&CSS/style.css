@@ -1,7 +1,10 @@
 @charset "UTF-8";
-
+body{
+    background-color: rgb(163, 163, 163);
+}
 #t1 {
     color: blue;
+    margin: 15px;
 }
 .t2{
     color: blue;
@@ -10,4 +13,14 @@
     color: blue;
     font-size: 16px;
     font-style: italic;
+}
+.ar1{
+    padding: 16px;
+    border: 2px solid black;
+    margin: 15px 0px 0px;
+    color: #505050;
+    border-radius: 5px;
+}
+.im{
+    border-radius: 5px;
 }
