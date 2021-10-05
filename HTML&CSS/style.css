@@ -2,10 +2,13 @@
 body{
     background-color: rgb(163, 163, 163);
     font-family: Verdana, Tahoma, sans-serif;
+    max-width: 900px;
+
 }
 #t1 {
     color: blue;
     margin: 15px;
+    text-align: center;
 }
 .t2{
     color: blue;
@@ -23,11 +26,12 @@ body{
     color: #505050;
     border-radius: 5px;
     background-color: white;
+    text-align: justify;
 }
-.im{
+.im1{
     border: 1px black;
     border-radius: 50px;
-    width: auto;
+    width: 90%;
 
 
 }
