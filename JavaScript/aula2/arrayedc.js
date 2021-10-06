@@ -1,4 +1,4 @@
-var lista = ["maça", "pera,", "laranja"];
-lista.push("uva");
+//var lista = ["maça", "pera,", "laranja"];
+//lista.push("uva");
 //lista.pop();
-console.log(lista.reverse());
+//console.log(lista.reverse());
