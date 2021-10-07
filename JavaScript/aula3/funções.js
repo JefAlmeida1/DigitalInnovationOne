@@ -4,6 +4,7 @@
 
 //alert(soma(5, 10));
 
+/* esse aqui é a forma global
 var validar;
 function validaIdade(idade){
     validar;
@@ -17,4 +18,20 @@ function validaIdade(idade){
 }
 var idade = prompt("Qual sua idade?");
 validaIdade(idade)
-console.log(validar);
+console.log(validar); */
+
+/* Essa função é Local
+
+function validaIdade(idade){
+   var validar;
+    if(idade >= 18){
+        validar = true
+    
+    }else{
+        validar= false
+    }
+    return validar;
+}
+var idade = prompt("Qual sua idade?");
+validaIdade(idade)
+console.log(validar); */
