@@ -7,10 +7,17 @@
     <script src="aula3.js"></script>
     <title>crinado botão</title>
 </head>
-<body>
-    <button type="button" onclick="clique()">
-        Clique aqui
-        <p id="agradecimento"></p>
+<body onload="load()">
+    <h1>tabalhando com Funções/Botão</h1>
+    <button type="button" onclick="clique()">Clique aqui<p 
+        id="agradecimento" onclick="redirecionar()"></p>
     </button>
+        <p class="mousemover" onmouseover="trocar(this)"> passa o mouse aqui</p>
+        <p onmouseover="trocar(this)" onmouseout="voltar(this)">passe o mouse aqui</p>
+        <select onchange="funcaoChanger(this)">
+        <option value="1"> Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        </select>
 </body>
 </html>
