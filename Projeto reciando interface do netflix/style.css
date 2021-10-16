@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* o root serve para declarar variavél */
+:root{
+    --vermelho:#E50914;
+    --preta: #141414;
+}
+
+
+/*fazendo desta forma, voce esta deixando padronizado as configurações que foi determinada dentro da *. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #fff;
+}
+
+/* trabalhando com filme */
+.filme-principal{
+    font-size: 16px;
+    background-image: url('imagem/rick2.jpg'),linear-gradient(rgba(0,0,0,.50), )(rgba(0,0,0,.50)100%);
+    height: 400px;
+    background-size:  cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+.titulo{
+    font-size: 40px;
+
+}
