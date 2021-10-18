@@ -9,7 +9,7 @@ snake [0]={
 let direction = "right"
 let food = {
     x: Math.floor(Math.random()* 15 + 1) * box,
-    y: Math.floor(Math.random()* 15 +1) * box
+    y: Math.floor(Math.random()* 15 + 1) * box
 }
 
 function criarBG(){
@@ -20,7 +20,7 @@ function criarBG(){
 function criarCobrinha(){
     for(i=0; i < snake.length; i++){
         context.fillStyle = "grenn";
-        context.fillRect(snake[i].x, snale[i].y, box, box)
+        context.fillRect(snake[i].x, snake[i].y, box, box)
     }
 }
 
