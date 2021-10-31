@@ -36,6 +36,7 @@
  preencheLista(['A', 'B', 'C'], 'D');
  */
 
+ /*
  interface iusuario{
      id: string;
      email: string;
@@ -51,3 +52,13 @@
 
  }
 }
+*/
+
+import $ from 'jquery';
+
+$.fn.extend({
+    novafuncao(){
+        console.log('chamou nova funcao')
+    }
+});
+$('body').novafuncao();
