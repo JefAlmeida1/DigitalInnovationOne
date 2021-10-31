@@ -36,4 +36,18 @@
  preencheLista(['A', 'B', 'C'], 'D');
  */
 
- 
+ interface iusuario{
+     id: string;
+     email: string;
+ }
+
+ interface iadmin extends iusuario{
+     cargo: 'gerente' | 'coordenador' | 'supervisor';
+
+ }
+
+ function redirecione (usuario: iusuario | iadmin){
+ if ('cargo' in usuario){
+
+ }
+}
