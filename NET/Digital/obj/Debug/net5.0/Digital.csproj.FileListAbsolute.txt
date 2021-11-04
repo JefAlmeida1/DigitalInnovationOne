@@ -1,0 +1,16 @@
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\bin\Debug\net5.0\Digital.exe
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\bin\Debug\net5.0\Digital.deps.json
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\bin\Debug\net5.0\Digital.runtimeconfig.json
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\bin\Debug\net5.0\Digital.runtimeconfig.dev.json
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\bin\Debug\net5.0\Digital.dll
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\bin\Debug\net5.0\ref\Digital.dll
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\bin\Debug\net5.0\Digital.pdb
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\obj\Debug\net5.0\Digital.csproj.AssemblyReference.cache
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\obj\Debug\net5.0\Digital.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\obj\Debug\net5.0\Digital.AssemblyInfoInputs.cache
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\obj\Debug\net5.0\Digital.AssemblyInfo.cs
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\obj\Debug\net5.0\Digital.csproj.CoreCompileInputs.cache
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\obj\Debug\net5.0\Digital.dll
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\obj\Debug\net5.0\ref\Digital.dll
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\obj\Debug\net5.0\Digital.pdb
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET\Digital\obj\Debug\net5.0\Digital.genruntimeconfig.cache
