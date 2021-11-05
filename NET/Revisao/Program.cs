@@ -55,7 +55,7 @@ namespace Revisao
                         }
                         var mediaGeral = notaTotal / nrAlunos;
                         Conceito conceitoGeral;
-                        if(mediaGeral < 3)
+                        if(mediaGeral < 2)
                         {
                             conceitoGeral = Conceito.E;
                         }
