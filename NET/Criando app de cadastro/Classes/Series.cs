@@ -36,6 +36,10 @@ namespace Series
         {
             return this.Id;
         }
+        public bool retornaExcluido()
+        {
+            return this.retornaExcluido;
+        }
         public voide Exclui()
         {
             this.Excluido = true;
