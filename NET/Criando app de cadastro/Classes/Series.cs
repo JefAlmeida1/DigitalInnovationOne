@@ -6,6 +6,7 @@ namespace Series
         private string Titulo {get; set; }
         private string Descricao {get; set; }
         private int Ano {get; set; }
+        private bool Exclui {get; set;}
 
         public Series(int id, Genero genero, string titulo, string descricao, int ano)
         {
@@ -14,7 +15,9 @@ namespace Series
             this.Titulo = titulo;
             this.Descricao = descricao;
             this.Ano = ano;
+            this.Exclui = false;
         }
+
         public override string ToString()
         {
             string retorno = "";
@@ -22,6 +25,7 @@ namespace Series
             retorno += "Titulo: " + this.genero + Environment.NewLine;
             retorno += "Descricao: " + this.genero + Environment.NewLine;
             retorno += "Ano de Inicio: " + this.genero + Environment.NewLine;
+            retorno += "Excluido: "+ this.Exclui;
             return retorno;
         }
         public string retornaTitulo()
@@ -31,6 +35,10 @@ namespace Series
         public int retornaId()
         {
             return this.Id;
+        }
+        public voide Exclui()
+        {
+            this.Excluido = true;
         }
     }
 

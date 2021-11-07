@@ -7,25 +7,33 @@ namespace Seies.Classes
     public class SerieRepositorio : IRepositorio<Serie>
     {
        private List<Series> listaSerie = new List<Series>();
-       public void Atualiza(int id, Serie entidade)
+       public void Atualiza(int id, Serie objeto)
        {
-           throw new NotImplementedException();
+           listaSerie[id] = objeto;
 
        }
        public void Exclui(int id)
        {
-           throw new NotImplementedException();
+           listaSerie[id].Exclui();
            
        }
-       public void Insere(Serie entidade)
+       public void Insere(Serie objeto)
        {
-           throw new NotImplementedException();
+           listaSerie.Add(objeto);
            
        }
        public List<Serie> Lista()
        {
-           throw new NotImplementedException();
+         return listaSerie;
            
+       }
+       public int ProximoId()
+       {
+           return listaSerie.Count;
+       }
+       public Series RetornaProId(int id)
+       {
+           return listaSerie[id];
        }
     }
 }
