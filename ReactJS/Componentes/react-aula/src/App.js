@@ -1,4 +1,5 @@
 import Item from '../Components/Item/index';
+import Card from '../Card';
 
 const App = () =>{
   return(
