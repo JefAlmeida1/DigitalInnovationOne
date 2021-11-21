@@ -1,5 +1,5 @@
 import React, { createContext, useCallback, useState } from "react";
-import api from "../services/api";
+import api from '../Services/api';
 
 export const GithubContext = createContext({
   loading: false,

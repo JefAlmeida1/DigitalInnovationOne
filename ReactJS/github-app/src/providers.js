@@ -6,10 +6,10 @@ import GithubProvider from "./providers/github-providers";
 const Providers = () =>{
     return(
         <main>
-        <GithubProviders>
+        <GithubProvider>
         <ResetCSS/>
         <App />
-        </GithubProviders>
+        </GithubProvider>
         </main>
     )
 }

@@ -5,20 +5,22 @@ import useGithub from '../../hooks/github-hooks';
 const Header = () => {
 
     const {getUser} = useGithub();
-    const [setUsernameForSearch, setUsernameForSearch] = useState()
+    const [usernameForSearch, setUsernameForSearch] = useState()
 
     const submitGetUser = () =>
     {
-       if (!setUsernameForSearch) return; return getUser(setUsernameForSearch);
+       if (!usernameForSearch) return; 
+       return getUser(usernameForSearch);
     }
 
     return (
         <header>
            <S.Wrapper>
-                <input type="text" placeholder="Digite o username para pesquisa..."
+                <input 
+                type="text" 
+                placeholder="Digite o username para pesquisa..."
                 onChange={(event) => setUsernameForSearch(event.target.value)}/>
-                <button type="submit" onClick={submitGetUser}><span>buscar
-                    </span></button>   
+                <button type="submit" onClick={submitGetUser}><span>buscar</span></button>   
             </S.Wrapper> 
         </header>
     )
