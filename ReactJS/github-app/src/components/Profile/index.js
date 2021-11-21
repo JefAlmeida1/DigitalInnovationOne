@@ -4,11 +4,12 @@ const Profile = () => {
     return (
     <S.Wrapper>
           <S.WrapperInfoUser>
-            <S.WrapperImage src="" alt="avatar"/>
+            <S.WrapperImage src="https://avatars.githubusercontent.com/u/89365867?v=4" alt="avatar"/>
             <div>
             <h1></h1>
             <S.WrapperUserName>
-            <h3></h3>
+            <h3>JefAlmeida1</h3>
+            <a href="https://github.com/JefAlmeida1" target="_blank" rel="noreferrer">JefAlmeida1</a>
             </S.WrapperUserName>
             <span></span>
             </div>
