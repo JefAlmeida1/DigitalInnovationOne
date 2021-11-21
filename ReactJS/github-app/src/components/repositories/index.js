@@ -9,10 +9,10 @@ const Repositories = () => {
 
   useEffect(() => {
     if (githubState.user.login) {
-      getUserRepos(githubState.user.login);
-      getUserStarred(githubState.user.login);
+        getUserRepos(githubState.user.login);
+        getUserStarred(githubState.user.login);
     }
-    setHasUserForSearchrepos(githubState.repositories);
+     setHasUserForSearchrepos(githubState.repositories);
 
   }, [githubState.user.login]);
 
