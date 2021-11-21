@@ -6,10 +6,15 @@ const Profile = () => {
 
     const {githubState} = useGithub()
 
+    useEffect(() => {
+      console.log(githubState.user);
+
+    }, [githubState.user]);
+    
     return (
     <S.Wrapper>
           <S.WrapperInfoUser>
-            <S.WrapperImage src="https://avatars.githubusercontent.com/u/89365867?v=4" alt="avatar"/>
+            <S.WrapperImage src={githubState.user.avatar} alt="avatar"/>
             <div>
             <h1>{githubState.user.name}</h1>
             <S.WrapperUserName>
@@ -18,7 +23,20 @@ const Profile = () => {
               {githubState.user.login}
             </a>
             </S.WrapperUserName>
-            <span>{githubState.user.login}</span>
+            <S.WrapperUserGeneric>
+            <h3>company:</h3>
+            <span>{githubState.user.company}</span>
+            </S.WrapperUserGeneric>
+            <S.WrapperUserGeneric>
+            <h3>location:</h3>
+            <span>{githubState.user.location}</span>
+            </S.WrapperUserGeneric>
+            <S.WrapperUserGeneric>
+            <h3>Blog:</h3>
+            <a href={githubState.user.blog} target="_blank">
+            {githubState.user.blog}
+            </a>
+            </S.WrapperUserGeneric>
             </div>
             <S.WrapperStatusCount>
             <div>
