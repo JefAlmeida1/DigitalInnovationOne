@@ -1,16 +1,19 @@
 import React from 'react'; 
 import Layout from './components/layout';
 import Profile from './components/Profile';
+import Repositories from './components/repositories';
 import { ResetCSS } from './global/resetCSS';
+import GithubProviders from './providers/github-providers';
 const App = () => {
   return (
   <main>
-    <ResetCSS/>
-    <Layout>
-      <Profile/>
-      <div>Reporitories</div>
-      <div>Starred</div>
-    </Layout>
+    <GithubProviders>
+        <ResetCSS/>
+      <Layout>
+        <Profile/>
+        <Repositories/>
+      </Layout>
+    </GithubProviders>
     </main>
   );
 }
