@@ -1,8 +1,10 @@
 function consultacep(){
+    var cep = document.getElementById("cep").value;
+    console.log(cep);
     $.ajax({
         url: "https://viacep.com.br/ws/14800390/json/",
         type: "GET",
-        sucess: function(response){
+        success: function(response){
             console.log(response);
         }
     })
