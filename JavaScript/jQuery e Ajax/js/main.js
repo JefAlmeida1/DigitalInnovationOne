@@ -9,7 +9,7 @@ function consultacep(){
             console.log(response);
             document.getElementById("logradouro").innerHTML = response.logradouro;
             document.getElementById("bairro").innerHTML = response.bairro;
-            document.getElementById("localidade").innerHTML = response.localidade;
+            document.getElementById("localidade").innerHTML = "Rua:" + response.localidade;
             document.getElementById("uf").innerHTML = response.uf;
         }
     })

@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <title>Apredendo jQuery e ajax</title>
 </head>
 <body>
-    Digite o cep: <input type="text" id="cep">
-    <button type="button" onclick="consultacep()">Clique aqui</button>
-    <p id="logradouro"></p>
-    <p id="bairro"></p>
-    <p id="localidade"></p>
-    <p id="uf"></p>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CEP</a>
+            <div class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" onclick="consultacep()">Buscar</button>
+            </div>
+          </div>
+      </nav>
 </body>
 </html>
