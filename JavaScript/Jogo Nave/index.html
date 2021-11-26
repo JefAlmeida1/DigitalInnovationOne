@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <script src="script/script.js"></script>
     <title>Jogo Nave</title>
 </head>
 <body>
@@ -14,9 +13,22 @@
             <div id="inicio">
                 <h1>Resgate</h1>
                     <p>A tecla W para movimentar para cima, a tecla S para movimentar para baixo, tecla D para atirar.</p>
-                    <p>Clique aqui para iniciar!</p>
+                    <p onclick="start()">Clique aqui para iniciar!</p>
             </div>
         </div>
     </div>
+
+    <audio src="arquivos/audios/som.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="arquivos/audios/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="arquivos/audios/musica_fundo.mp3" preload="auto" id="musica"></audio>
+    <audio src="arquivos/audios/gameover.mp3" preload="auto" id="somGameover"></audio>
+    <audio src="arquivos/audios/perdido.mp3" preload="auto" id="somPerdido"></audio>	
+    <audio src="arquivos/audios/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+    
+    <script src="jquery/jquery-1.11.1.min.js"></script>
+    <script src="jquerycollision1.0.2min/jquerycollision1.0.2min/jquery-collision.min.js"></script>
+    <script src="script/script.js"></script>
+    
 </body>
 </html>
