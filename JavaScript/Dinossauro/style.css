@@ -1,12 +1,13 @@
 body{
     background: #fafafa;
+    background-image: url(imagem/sol-dibujo.gif);
     
 }
 
 .dino{
     width: 60px;
     height: 60px;
-    background-color: url('imagem/dinão.png');
+    background-image: url(imagem/dinão.png);
     position: absolute;
     bottom: 0;
 }
@@ -16,7 +17,7 @@ body{
     width: 60px;
     height: 60px;
     bottom: 0;
-    background: url('imagem/cactus.png');
+    background-image: url(imagem/cactus.png);
 }
 
 .game-over{
