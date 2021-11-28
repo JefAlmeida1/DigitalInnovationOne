@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <title>velha</title>
+</head>
+<body onload=inicia()>
+    <main>
+        <div id='board'></div><br />
+         Linha: <input id="lin" type="number" class="form-control" min="1" max="2" style="width: 10%"> <br />
+          Coluna: <input id="col" type="number" class="form-control" min="1" max="2" style="width: 10%"> <br />
+         <button onclick="jogar()" class="btn btn-primary">Marcar</button><br/>
+        <div id='aviso'></div><br/>
+    </main>
+   </body>
+</html>
