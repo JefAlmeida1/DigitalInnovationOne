@@ -26,3 +26,19 @@ function moveUp(){
         yourShip.style.top = `${position}px`
     }
 }
+
+//down
+
+function moveDown(){
+    let topPosition = getComputedStyle(yourShip).getPropertyValue('top')
+    if(topPosition === "540px"){
+        return
+    }else{
+        let position = parseInt(topPosition)
+        position += 50
+        yourShip.style.top = `${position}px`
+    }
+    
+}
+
+window.addEventListener('keydown', flyShip)
