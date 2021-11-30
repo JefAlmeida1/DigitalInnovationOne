@@ -41,8 +41,8 @@ function createCactus(){
     let randomTime = Math.random() * 600
 
     cactus.classList.add('cactus')
-    cactus.style.left = 1000 + 'px'
     background.appendChild(cactus)
+    cactus.style.left = cactusPosition + 'px'
 
     let leftInterval = setInterval(() => {
         if (cactusPosition < -60){
@@ -63,5 +63,5 @@ function createCactus(){
     setTimeout(createCactus, randomTime)
 }
 
-createCactus()
+
 document.addEventListener('keyup', handleKeyUp)
