@@ -11,7 +11,7 @@ namespace Projeto_RPG
             Wizard wizard = new Wizard("Jennica", 23, "White Wizard");
 
             Console.WriteLine(hero);
-            Console.WriteLine(hero);
+            Console.WriteLine(wizard);
             
         }
     }
