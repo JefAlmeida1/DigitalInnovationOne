@@ -7,11 +7,12 @@ namespace Projeto_RPG
     {
         static void Main(string[] args)
         {
-            Arus hero = new Arus("Arus", 23, "Knight");
-            Arus oponnet = new Arus("Maleficus", 88, "Devil");
+            Hero hero = new Hero("Arus", 23, "Knight");
+            Wizard wizard = new Wizard("Jennica", 23, "White Wizard");
 
             Console.WriteLine(hero);
-            Console.WriteLine(oponnet);
+            Console.WriteLine(hero);
+            
         }
     }
 }

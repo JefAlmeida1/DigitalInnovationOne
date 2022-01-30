@@ -1,8 +1,8 @@
 namespace Projeto_RPG.src.Entities
 {
-    public class Arus
+    public class Hero
     {
-        public Arus(string Name, int level, string HeroType)
+        public Hero(string Name, int level, string HeroType)
         {
             this.Name = Name;
             this.level = level;
@@ -17,7 +17,7 @@ namespace Projeto_RPG.src.Entities
             return this.Name + " " + this.level + " " + this.HeroType + " ";
         }
 
-        public string Attack()
+        public virtual string Attack()
         {
             return this.Name + " Atacou com a sua espada";
         }
