@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import CreateStyle from './styles/global';
 
 function App() {
+  
   return (
+    <>
     <div className="App">
       
     </div>
+      <CreateStyle/>
+    </>
   );
 }
 
