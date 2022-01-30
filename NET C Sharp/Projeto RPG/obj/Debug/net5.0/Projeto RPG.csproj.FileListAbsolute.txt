@@ -1,0 +1,16 @@
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\bin\Debug\net5.0\Projeto RPG.exe
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\bin\Debug\net5.0\Projeto RPG.deps.json
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\bin\Debug\net5.0\Projeto RPG.runtimeconfig.json
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\bin\Debug\net5.0\Projeto RPG.runtimeconfig.dev.json
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\bin\Debug\net5.0\Projeto RPG.dll
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\bin\Debug\net5.0\ref\Projeto RPG.dll
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\bin\Debug\net5.0\Projeto RPG.pdb
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\obj\Debug\net5.0\Projeto RPG.csproj.AssemblyReference.cache
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\obj\Debug\net5.0\Projeto RPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\obj\Debug\net5.0\Projeto RPG.AssemblyInfoInputs.cache
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\obj\Debug\net5.0\Projeto RPG.AssemblyInfo.cs
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\obj\Debug\net5.0\Projeto RPG.csproj.CoreCompileInputs.cache
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\obj\Debug\net5.0\Projeto RPG.dll
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\obj\Debug\net5.0\ref\Projeto RPG.dll
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\obj\Debug\net5.0\Projeto RPG.pdb
+C:\Users\Jaf\Documents\meusprojetos\DigitalInnovationOne\NET C Sharp\Projeto RPG\obj\Debug\net5.0\Projeto RPG.genruntimeconfig.cache
