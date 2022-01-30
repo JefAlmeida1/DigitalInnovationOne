@@ -14,7 +14,12 @@ namespace Projeto_RPG.src.Entities
 
         public override string ToString()
         {
-            return this.Name;
+            return this.Name + " " + this.level + " " + this.HeroType + " ";
+        }
+
+        public string Attack()
+        {
+            return this.Name + " Atacou com a sua espada";
         }
     }
 }

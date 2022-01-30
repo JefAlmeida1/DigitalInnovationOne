@@ -8,8 +8,10 @@ namespace Projeto_RPG
         static void Main(string[] args)
         {
             Arus hero = new Arus("Arus", 23, "Knight");
+            Arus oponnet = new Arus("Maleficus", 88, "Devil");
 
-            Console.WriteLine(hero.ToString());
+            Console.WriteLine(hero);
+            Console.WriteLine(oponnet);
         }
     }
 }
