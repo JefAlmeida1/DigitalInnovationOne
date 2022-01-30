@@ -9,7 +9,9 @@ body{
     display: flex;
     background-image: url(img/u.jpg);
 }
-
+h1{
+    text-align: center;
+}
 .memory-game{
     height: 640px;
     width: 604px;
