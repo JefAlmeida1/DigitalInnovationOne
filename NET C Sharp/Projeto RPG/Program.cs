@@ -1,4 +1,5 @@
 ﻿using System;
+using Projeto_RPG.src.Entities;
 
 namespace Projeto_RPG
 {
@@ -6,7 +7,9 @@ namespace Projeto_RPG
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Arus hero = new Arus();
+
+            Console.WriteLine("");
         }
     }
 }
