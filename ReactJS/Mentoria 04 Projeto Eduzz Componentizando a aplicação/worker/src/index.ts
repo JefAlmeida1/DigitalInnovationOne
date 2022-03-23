@@ -16,7 +16,7 @@ import sendgrid from '@sendgrid/mail';
         const { name, email, link } = JSON.parse(json); 
         const body = {
             to: `${name} <${email}>`,
-            from: 'diogo.mainardes@eduzz.com',
+            from: '',
             subject: 'Recuperacao de senha',
             html: `<p>Olá... acesse o link abaixo para resetar a sua senha</p>
                    <p><a href='${link}'>${link}</a></p>`,
