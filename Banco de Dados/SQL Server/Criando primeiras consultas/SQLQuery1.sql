@@ -1,16 +1,13 @@
-create table Pedido
-(
-Codigo int not null,
-DataSolicitacao datetime not null,
-FlagPago bit not null,
-TotalPedido float not null,
-CodigoCliente int not null
-)
+select * from clientes
 
-create table PedidoItem
-(
-CodigoPedido int not null,
-CodigoProduto int not null,
-Preco float not null,
-Quantidade int not null
-)
+insert into clientes (Codigo, Nome, TipoPessoa) values (1, 'Junior', 'M');
+insert clientes (Codigo, Nome, TipoPessoa) values (2, 'Amanda', 'F');
+insert clientes values (3, 'Ale', 'F');
+insert clientes values (4, 'Vini', 'M');
+insert clientes values (5, 'Dayna', 'F');
+insert clientes values (1, 'Roma', 'M');
+
+update clientes
+set Codigo = 7,
+	Nome = 'Roma'
+where Nome = 'Roma'
